@@ -1,15 +1,45 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println("Rafael");
+
+        //TipoDaVariavel nomeDaVariavel= valorDaVariavel
+        //String é um TEXTO
+        String nome = "Mosquito";
+        char sexo = 'M';
+
+        // [] -> Diz que é um array
+        // {} -> Indicar um objeto
+        char[] textoChar = {'5'};
+
+        //Guardar valores Reais
+        double altura = 1.70;
+        Double peso = 60.0;
+        float alturaPessoa2 = 1.70f;
+        Float pesoPessoa3 = 60.0f;
+        int numeroCasa = 20;
+        Integer numeroAlunos = 1;
+        Long numeroGolsDoBraitWaith = 3l;
+
+        //Operadores Aritimeticos
+        // + para soma
+        // - para subtração
+        // * para multiplicação
+        // / para divisão
+
+        Integer soma = 5 + 5;
+        Integer subtração = 5 - 2;
+        Integer multiplicar = 5 * 5;
+        Integer dividir = 5 / 5;
+
+        Integer resultadoSoma = soma + subtração;
+        Integer resultadoSubtração = soma - subtração;
+        Integer resultadoMultiplicar = soma * subtração;
+        Integer resultadoDivisão = soma / subtração;
+
+        System.out.println("Valord da divisão é" + resultadoDivisão);
+        System.out.println("Valord da multiplicação é" + resultadoMultiplicar);
+        System.out.println("Valord da Soma é" + resultadoSoma);
+        System.out.println("Valord da Subtração é" + resultadoSubtração);
     }
 }
